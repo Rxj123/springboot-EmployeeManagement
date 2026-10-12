@@ -192,25 +192,11 @@ Then open <http://localhost:8080/h2-console>. The JDBC URL is printed in the sta
 java -jar target/<artifact-name>-0.0.1-SNAPSHOT.jar
 ```
 
-## Roadmap / Ideas
-
-- [ ] Add `Department` and `Position` entities with relationships to `Employee`
-- [ ] Return proper HTTP status codes from `DELETE` (`204` / `404`) instead of plain text
-- [ ] Global exception handling with clear JSON error messages
-- [ ] Secure the API with Spring Security and JWT authentication
-- [ ] Interactive API documentation with Swagger / OpenAPI
-- [ ] Switch from H2 to a persistent database (PostgreSQL or MySQL)
-- [ ] Docker support and cloud deployment
-- [ ] Pagination and sorting for the employee list
-- [ ] Unit and integration tests for service and controller layers
 
 ## Acknowledgements
 
 Based on the article [Building a Robust REST API with Spring Boot (Employee Management)](https://medium.com/@mouhssinazelmat99/building-a-robust-rest-api-with-spring-boot-employee-management-8afbd788b42f) by Mouhcine Azelmat.
 
-## License
-
-Add a license of your choice (for example, MIT) and update this section.
 
 ## Author
 
